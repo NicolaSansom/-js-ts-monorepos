@@ -5,8 +5,7 @@
 Yarn workspaces requires an array of file blobs. Anything under packages will be
 regarded as single use pacakges.
 
-(Info about require resolve)
-[https://nodejs.org/api/modules.html#modules_all_together]
+[Info about require resolve](https://nodejs.org/api/modules.html#modules_all_together)
 
 ## Cleaning output & rimraf
 
@@ -32,4 +31,11 @@ unless for shared config packages.
 ## Volta
 
 volta can be used to pin certain version packakge and switch on per package
-basis (volta)[https://docs.volta.sh/]
+basis [volta](https://docs.volta.sh/)
+
+## Testing and linting
+
+Target maps can be found at
+[browserlist](https://github.com/browserslist/browserslist)
+
+Why is jest not working
